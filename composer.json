@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "illuminate/database": "~5.2",
+        "aws/aws-sdk-php": "^3.18",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "chatter\\": "src/chatter/"
+        }
+    }
+}
